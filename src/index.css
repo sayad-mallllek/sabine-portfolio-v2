@@ -1,0 +1,49 @@
+.hijabIcon{
+    height: 250px;
+}
+
+.applicationIcon {
+    height: 100px;
+}
+
+.centeredContainer{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 500px){
+
+    .css-kotv5b{
+        margin-right: 0;    
+    }
+
+    .centeredContainerMobile {
+        text-align: center;
+    }
+
+    .mobileBreak {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .centerContainer {
+        display: flex;
+        align-items: center;
+      }   
+
+    .hijabIcon {
+        height: 300px ;
+    }
+
+    .applicationIcon {
+        height: 120px;
+        
+    }
+
+    .otherIcon {
+        margin-right: 10px;
+    }
+
+
+}
