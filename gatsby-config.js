@@ -10,13 +10,13 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitle: `Cara`,
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
-    siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
+    siteTitle: `Sabine Ezzeddine`,
+    siteTitleAlt: `Sabine Ezzeddine - Research | Writing | Data | Social Media`,
+    siteHeadline: `Sabine Ezzeddine - Research | Writing | Data | Social Media`,
     siteUrl: `https://cara.lekoarts.de`,
-    siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+    siteDescription: `Sabine Ezzeddine - Zimbabwe/Lebanese - Research | Writing | Data | Social Media`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `@sabine_ezzeddine`,
   },
   plugins: [
     {
