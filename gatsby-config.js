@@ -1,6 +1,6 @@
-require(`dotenv`).config()
+require(`dotenv`).config();
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 /**
  * @type {import('gatsby').GatsbyConfig}
@@ -13,7 +13,7 @@ module.exports = {
     siteTitle: `Sabine Ezzeddine`,
     siteTitleAlt: `Sabine Ezzeddine - Research | Writing | Data | Social Media`,
     siteHeadline: `Sabine Ezzeddine - Research | Writing | Data | Social Media`,
-    siteUrl: `https://cara.lekoarts.de`,
+    siteUrl: `https://sabine-ezzeddine.vercel.app`,
     siteDescription: `Sabine Ezzeddine - Zimbabwe/Lebanese - Research | Writing | Data | Social Media`,
     siteImage: `/banner.jpg`,
     author: `@sabine_ezzeddine`,
@@ -59,4 +59,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};
